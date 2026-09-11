@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/movies";
+const API_URL =
+  "https://movie-discovery-backend.onrender.com/api/movies";
 
 function MovieDetails({ wishlist, onWishlistChange }) {
   const { id } = useParams();

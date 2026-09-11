@@ -18,7 +18,7 @@ import Wishlist from "./pages/Wishlist";
 
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/movies";
+const API_URL = "https://movie-discovery-backend.onrender.com/api/movies";
 
 const genres = [
   { id: "", name: "All Genres" },
